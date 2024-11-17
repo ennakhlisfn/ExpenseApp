@@ -2,7 +2,6 @@ let but = document.querySelector("button");
 let nameI = document.querySelector(".nameI");
 let dateI = document.querySelector(".dateI");
 let amountI = document.querySelector(".amountI");
-// let delet = document.querySelector(".delet");
 
 document.addEventListener("click", function (e) {
   if (e.target.className === "delet") e.target.parentNode.remove();
@@ -40,7 +39,7 @@ function addTd(nameI, dateI, amountI) {
 
 let checkEmpty = function (input) {
   if (input.value === "") {
-    input.style.border = "solid 1px red";
+    input.style.border = "solid 1px #e13232";
     return 1;
   }
   input.style.border = "solid 1px #c9c4c4";
