@@ -49,6 +49,7 @@ h3 {
 input {
   border: solid 1px #c9c4c4;
   height: 25px;
+  padding-left: 5px;
 }
 
 @media (max-width: 460px) {
@@ -99,6 +100,7 @@ table td {
 }
 .delet {
   padding: 5px;
+  margin: 0;
   border: solid 1px white;
   background-color: navajowhite;
 }
@@ -118,6 +120,11 @@ table td {
   font-size: 10px;
   font-weight: 500;
   word-spacing: 2px;
+}
+span {
+  color: #1a9c03;
+  font-size: large;
+  font-weight: 500;
 }
 
 @media (min-width: 1000px) {
